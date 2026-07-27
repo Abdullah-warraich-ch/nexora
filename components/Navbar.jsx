@@ -36,12 +36,12 @@ export default function Navbar() {
         </button>
 
         {/* Profile Avatar */}
-        <div className="relative group cursor-pointer">
-          <div className="w-9 h-9 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-brand-purple/20 group-hover:border-brand-purple transition-all duration-300">
+        <div className="relative group cursor-pointer flex items-center justify-center">
+          <div className="w-9 h-9 md:w-10 md:h-10 group-hover:w-24 md:group-hover:w-28 rounded-full overflow-hidden border-2 border-brand-purple/20 group-hover:border-brand-purple transition-all duration-500 ease-out shadow-sm">
             <img 
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80" 
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&h=150&q=80" 
               alt="User profile" 
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
           </div>
         </div>
