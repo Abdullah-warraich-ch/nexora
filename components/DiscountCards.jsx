@@ -19,11 +19,11 @@ export default function DiscountCards() {
           <img
             src="/banner-bag.png"
             alt="Summer Sale Handbag"
-            className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+            className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700"
           />
 
           {/* Dark Overlay for Text Readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/85 via-zinc-950/50 to-transparent z-0" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#7859ec] via-[#7859ec]/85 to-transparent z-0" />
 
           {/* Content Container */}
           <div className="relative z-10 flex flex-col justify-between h-full">
@@ -65,11 +65,11 @@ export default function DiscountCards() {
           <img
             src="/banner-sunglasses.png"
             alt="New Arrivals Sunglasses"
-            className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+            className="absolute inset-0 w-full h-full object-cover object-center  transition-transform duration-700"
           />
 
           {/* Dark Overlay for Text Readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-zinc-950/85 via-zinc-950/50 to-transparent z-0" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#7859ec] via-[#7859ec]/85 to-transparent z-0" />
 
           {/* Content Container */}
           <div className="relative z-10 flex flex-col justify-between h-full">
